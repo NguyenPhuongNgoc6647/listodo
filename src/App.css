@@ -1,0 +1,46 @@
+.App{
+     width:100%;
+     margin:0 auto;
+}
+.form-todolist{
+     width:80%;
+     margin:50px auto;
+}
+.form-todolist input{
+     width: 250px;
+     height: 30px;
+     padding-left: 10px;
+}
+.form-todolist button{
+     height: 35px;
+     margin-left: 5px;
+     background-color:lightblue;
+     padding: 0 10px;
+     border:1px solid blue;
+     border-radius: 3px;
+     color: blue;
+     cursor: pointer;
+}
+.item{
+     display: flex;
+     margin:15px 0;
+}
+.item .del{
+     background-color:orangered;
+     color:white;
+     border:1px solid red;
+     height: 20px;
+     outline: none;
+     cursor: pointer;
+}
+.item .update{
+     background-color:whitesmoke;
+     color:green;
+     border:1px solid green;
+     height: 20px;
+     cursor: pointer;
+     outline: none;
+}
+.item .value{
+     width:185px;
+}
